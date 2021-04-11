@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			height: 400px;
+			background-color: white;
+			/*align-items: center;*/
+		}
+		li{
+			height: 40px;
+			width: 200px;
+			background:white;
+			text-align: left;
+			font-size: 20px;/*icon size*/
+			display: flex;
+			justify-content:left;
+			/*opr theke mqjhe asbe*/
+		}
+		a{
+			text-decoration: none;
+			padding: 5px;
+			color:black;
+		}
+        /*mouse dhorle*/
+
+        /*ul li:first-child:hover{*/
+		a:hover{
+			border-radius: 10% 10% 10% 10%;
+			background: pink;
+        	cursor: pointer;
+        	/*justify-content:center;*/
+        	align-items: center;
+        	/*pager majhe chole asbe sob dik theke*/
+        	box-shadow: 5px 10px 13px black;
+        	transition: 1s all;
+        }
+        /*click korle*/
+        a:focus{
+        	color:blue;
+        }
+        p::first-line{
+		color: red;
+		font-size: 50px;
+        }
+        p::before{
+        	content:"Hello world!";
+        	color: navy;
+        	font-size: 60px;
+        }
+	</style>
+</head>
+<body>
+	<ul class="mnu">
+		<li><a href="#">Electronic Devices</a></li>
+		<li><a href="#">Women's Wear</a></li>
+		<li><a href="#">Men's Wear</a></li>
+		<li><a href="#">Kid's Wear</a></li>
+		<li><a href="#">Watches</a></li>
+		<li><a href="#">Shoes & Heel</a></li>
+	</ul>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio, illum facere ipsam officiis labore a repudiandae iure voluptas ea odio, perferendis porro dolorum pariatur laborum vero facilis libero placeat fugiat quo nemo. Iste facere at, accusamus hic dolores? Fugiat architecto, enim maiores, nemo sapiente delectus. Obcaecati reiciendis repellat quibusdam ea velit accusantium blanditiis eum. Eligendi autem omnis voluptatibus, dignissimos porro, illo dicta perferendis exercitationem explicabo qui iure vero corporis nisi aut non ullam voluptas ducimus aliquid tenetur magnam similique amet. Totam est nostrum nam corporis dignissimos incidunt hic velit a maiores corrupti repudiandae atque provident recusandae, officia, unde, quaerat?</p>
+</body>
+</html>

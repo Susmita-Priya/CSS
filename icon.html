@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="Icon/css/font-awesome.min.css">
+	<style>
+		ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			height: 400px;
+			background-color: white;
+			display: flex;
+			justify-content:center;
+			align-items: center;
+		}
+		li{
+			/*padding: 20px;*/
+			height: 90px;
+			width: 90px;
+			line-height: 91px;
+			background:white;
+			border-radius: 50%;
+			margin-left: 20px;
+			text-align: center;
+			font-size: 50px;
+			box-shadow: 5px 15px 23px gray;
+			/*icon size*/
+		}
+		ul li:first-child{
+			margin: 0;
+			color: white;
+			background-color: #395693;
+		}
+		ul li:nth-child(2){
+			background: linear-gradient(#F1C601,#EA0819, #4066BE);
+			color: white;
+		}
+		ul li:nth-child(3){
+			background-color:rgb(247,0,0);
+			color:white;
+		}
+		ul li:last-child{
+			background: #5AA4D6;
+			color:white;
+		}
+        li:hover{
+        	cursor: pointer;
+        	box-shadow: none;
+        	transition: 1s all;
+        	transform: rotate(360deg);
+        }
+	</style>
+</head>
+<body>
+	<ul class="main">
+		<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+		<li><i class="fa fa-instagram" aria-hidden="true"></i></i></li>
+		<li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+		<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+	</ul>
+</body>
+</html>
